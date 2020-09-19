@@ -4,6 +4,7 @@ from HWOcrClientAKSK import HWOcrClientAKSK
 import sys
 import os
 import base64
+import requests
 
 reload(sys)
 sys.setdefaultencoding('utf8')
@@ -57,7 +58,6 @@ def recognizeIdCard(ocrClient, imgPath, option):
         response = ocrClient.request_ocr_service_base64(reqUri, imgPath, option)  # Call OCR API to recognize image
         # print("Status code:" + str(response.status_code) + "\ncontent:" + response.text)
         return response
-
     except ValueError as e:
         print(e)
 
