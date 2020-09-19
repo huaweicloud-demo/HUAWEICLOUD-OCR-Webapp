@@ -19,4 +19,4 @@ Please navigate to : http://react-ap-webapp.obs-website.ap-southeast-2.myhuaweic
 
 Author Info:
 
-Any questions, please email to lihexin1@huawei.com
+Any questions, please email to xxx
