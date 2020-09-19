@@ -10,9 +10,10 @@ def handler (event, context):
     req_body = json.loads(base64.b64decode(event['body']))
 
     # Connect to the database
-    connection = pymysql.connect(host='192.168.0.71',
-                                user='ocr_usr',
-                                password='<your_mysql_password>',
+    connection = pymysql.connect(host='122.9.32.74',
+                                port=3316
+                                user='mysql',
+                                password='mysql@123',
                                 db='ocr_store',
                                 charset='utf8mb4',
                                 cursorclass=pymysql.cursors.DictCursor)
