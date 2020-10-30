@@ -19,7 +19,7 @@ def handler (event, context):
     region = "ap-southeast-2"
     ak = "<input_your_ak>"
     sk = "<input_your_sk>"
-    imagePath = "https://react-ap-webapp-images.obs.ap-southeast-2.myhuaweicloud.com/" + filePath
+    host = "http://ocr.huaweicloud.com"
     option = {}
     
     # Initialize ocr_client
